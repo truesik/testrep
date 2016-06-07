@@ -1,6 +1,7 @@
 public class TestClass {
     private String name;
     private int days;
+    private String lastName;
 
     public TestClass(String name, int days) {
         this.name = name;
@@ -13,5 +14,9 @@ public class TestClass {
 
     public int getDays() {
         return days;
+    }
+
+    public String getLastName() {
+        return lastName;
     }
 }
